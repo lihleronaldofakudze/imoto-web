@@ -1,7 +1,15 @@
 import React from "react";
 
+import ContactComponent from "./components/ContactComponent";
+import NavbarComponent from "./components/NavbarComponent";
+
 function App() {
-  return <h4>Imoto Website</h4>;
+  return (
+    <>
+      <ContactComponent />
+      <NavbarComponent />
+    </>
+  );
 }
 
 export default App;
